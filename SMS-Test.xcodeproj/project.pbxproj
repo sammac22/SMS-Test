@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE62C02120C5CDDB0090552D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62C02020C5CDDB0090552D /* AppDelegate.swift */; };
+		EE62C02320C5CDDB0090552D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62C02220C5CDDB0090552D /* ViewController.swift */; };
+		EE62C02620C5CDDB0090552D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE62C02420C5CDDB0090552D /* Main.storyboard */; };
+		EE62C02920C5CDDB0090552D /* SMS_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE62C02720C5CDDB0090552D /* SMS_Test.xcdatamodeld */; };
+		EE62C02B20C5CDDB0090552D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE62C02A20C5CDDB0090552D /* Assets.xcassets */; };
+		EE62C02E20C5CDDB0090552D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE62C02C20C5CDDB0090552D /* LaunchScreen.storyboard */; };
+		EE62C03920C5CDDC0090552D /* SMS_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62C03820C5CDDC0090552D /* SMS_TestTests.swift */; };
+		EE62C04420C5CDDC0090552D /* SMS_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62C04320C5CDDC0090552D /* SMS_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE62C03520C5CDDC0090552D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE62C01520C5CDDB0090552D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE62C01C20C5CDDB0090552D;
+			remoteInfo = "SMS-Test";
+		};
+		EE62C04020C5CDDC0090552D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE62C01520C5CDDB0090552D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE62C01C20C5CDDB0090552D;
+			remoteInfo = "SMS-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE62C01D20C5CDDB0090552D /* SMS-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMS-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE62C02020C5CDDB0090552D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE62C02220C5CDDB0090552D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE62C02520C5CDDB0090552D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE62C02820C5CDDB0090552D /* SMS_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMS_Test.xcdatamodel; sourceTree = "<group>"; };
+		EE62C02A20C5CDDB0090552D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE62C02D20C5CDDB0090552D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE62C02F20C5CDDB0090552D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE62C03420C5CDDC0090552D /* SMS-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SMS-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE62C03820C5CDDC0090552D /* SMS_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMS_TestTests.swift; sourceTree = "<group>"; };
+		EE62C03A20C5CDDC0090552D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE62C03F20C5CDDC0090552D /* SMS-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SMS-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE62C04320C5CDDC0090552D /* SMS_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMS_TestUITests.swift; sourceTree = "<group>"; };
+		EE62C04520C5CDDC0090552D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE62C01A20C5CDDB0090552D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE62C03120C5CDDC0090552D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE62C03C20C5CDDC0090552D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE62C01420C5CDDB0090552D = {
+			isa = PBXGroup;
+			children = (
+				EE62C01F20C5CDDB0090552D /* SMS-Test */,
+				EE62C03720C5CDDC0090552D /* SMS-TestTests */,
+				EE62C04220C5CDDC0090552D /* SMS-TestUITests */,
+				EE62C01E20C5CDDB0090552D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE62C01E20C5CDDB0090552D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE62C01D20C5CDDB0090552D /* SMS-Test.app */,
+				EE62C03420C5CDDC0090552D /* SMS-TestTests.xctest */,
+				EE62C03F20C5CDDC0090552D /* SMS-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE62C01F20C5CDDB0090552D /* SMS-Test */ = {
+			isa = PBXGroup;
+			children = (
+				EE62C02020C5CDDB0090552D /* AppDelegate.swift */,
+				EE62C02220C5CDDB0090552D /* ViewController.swift */,
+				EE62C02420C5CDDB0090552D /* Main.storyboard */,
+				EE62C02A20C5CDDB0090552D /* Assets.xcassets */,
+				EE62C02C20C5CDDB0090552D /* LaunchScreen.storyboard */,
+				EE62C02F20C5CDDB0090552D /* Info.plist */,
+				EE62C02720C5CDDB0090552D /* SMS_Test.xcdatamodeld */,
+			);
+			path = "SMS-Test";
+			sourceTree = "<group>";
+		};
+		EE62C03720C5CDDC0090552D /* SMS-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE62C03820C5CDDC0090552D /* SMS_TestTests.swift */,
+				EE62C03A20C5CDDC0090552D /* Info.plist */,
+			);
+			path = "SMS-TestTests";
+			sourceTree = "<group>";
+		};
+		EE62C04220C5CDDC0090552D /* SMS-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE62C04320C5CDDC0090552D /* SMS_TestUITests.swift */,
+				EE62C04520C5CDDC0090552D /* Info.plist */,
+			);
+			path = "SMS-TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE62C01C20C5CDDB0090552D /* SMS-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE62C04820C5CDDC0090552D /* Build configuration list for PBXNativeTarget "SMS-Test" */;
+			buildPhases = (
+				EE62C01920C5CDDB0090552D /* Sources */,
+				EE62C01A20C5CDDB0090552D /* Frameworks */,
+				EE62C01B20C5CDDB0090552D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SMS-Test";
+			productName = "SMS-Test";
+			productReference = EE62C01D20C5CDDB0090552D /* SMS-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE62C03320C5CDDC0090552D /* SMS-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE62C04B20C5CDDC0090552D /* Build configuration list for PBXNativeTarget "SMS-TestTests" */;
+			buildPhases = (
+				EE62C03020C5CDDC0090552D /* Sources */,
+				EE62C03120C5CDDC0090552D /* Frameworks */,
+				EE62C03220C5CDDC0090552D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE62C03620C5CDDC0090552D /* PBXTargetDependency */,
+			);
+			name = "SMS-TestTests";
+			productName = "SMS-TestTests";
+			productReference = EE62C03420C5CDDC0090552D /* SMS-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE62C03E20C5CDDC0090552D /* SMS-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE62C04E20C5CDDC0090552D /* Build configuration list for PBXNativeTarget "SMS-TestUITests" */;
+			buildPhases = (
+				EE62C03B20C5CDDC0090552D /* Sources */,
+				EE62C03C20C5CDDC0090552D /* Frameworks */,
+				EE62C03D20C5CDDC0090552D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE62C04120C5CDDC0090552D /* PBXTargetDependency */,
+			);
+			name = "SMS-TestUITests";
+			productName = "SMS-TestUITests";
+			productReference = EE62C03F20C5CDDC0090552D /* SMS-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE62C01520C5CDDB0090552D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sam MacGinty";
+				TargetAttributes = {
+					EE62C01C20C5CDDB0090552D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EE62C03320C5CDDC0090552D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE62C01C20C5CDDB0090552D;
+					};
+					EE62C03E20C5CDDC0090552D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE62C01C20C5CDDB0090552D;
+					};
+				};
+			};
+			buildConfigurationList = EE62C01820C5CDDB0090552D /* Build configuration list for PBXProject "SMS-Test" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE62C01420C5CDDB0090552D;
+			productRefGroup = EE62C01E20C5CDDB0090552D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE62C01C20C5CDDB0090552D /* SMS-Test */,
+				EE62C03320C5CDDC0090552D /* SMS-TestTests */,
+				EE62C03E20C5CDDC0090552D /* SMS-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE62C01B20C5CDDB0090552D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE62C02E20C5CDDB0090552D /* LaunchScreen.storyboard in Resources */,
+				EE62C02B20C5CDDB0090552D /* Assets.xcassets in Resources */,
+				EE62C02620C5CDDB0090552D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE62C03220C5CDDC0090552D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE62C03D20C5CDDC0090552D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE62C01920C5CDDB0090552D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE62C02320C5CDDB0090552D /* ViewController.swift in Sources */,
+				EE62C02120C5CDDB0090552D /* AppDelegate.swift in Sources */,
+				EE62C02920C5CDDB0090552D /* SMS_Test.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE62C03020C5CDDC0090552D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE62C03920C5CDDC0090552D /* SMS_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE62C03B20C5CDDC0090552D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE62C04420C5CDDC0090552D /* SMS_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE62C03620C5CDDC0090552D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE62C01C20C5CDDB0090552D /* SMS-Test */;
+			targetProxy = EE62C03520C5CDDC0090552D /* PBXContainerItemProxy */;
+		};
+		EE62C04120C5CDDC0090552D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE62C01C20C5CDDB0090552D /* SMS-Test */;
+			targetProxy = EE62C04020C5CDDC0090552D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE62C02420C5CDDB0090552D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE62C02520C5CDDB0090552D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE62C02C20C5CDDB0090552D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE62C02D20C5CDDB0090552D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE62C04620C5CDDC0090552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE62C04720C5CDDC0090552D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE62C04920C5CDDC0090552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SMS-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sammacginty.SMS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE62C04A20C5CDDC0090552D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SMS-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sammacginty.SMS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE62C04C20C5CDDC0090552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SMS-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sammacginty.SMS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS-Test.app/SMS-Test";
+			};
+			name = Debug;
+		};
+		EE62C04D20C5CDDC0090552D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SMS-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sammacginty.SMS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS-Test.app/SMS-Test";
+			};
+			name = Release;
+		};
+		EE62C04F20C5CDDC0090552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SMS-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sammacginty.SMS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SMS-Test";
+			};
+			name = Debug;
+		};
+		EE62C05020C5CDDC0090552D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SMS-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sammacginty.SMS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SMS-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE62C01820C5CDDB0090552D /* Build configuration list for PBXProject "SMS-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE62C04620C5CDDC0090552D /* Debug */,
+				EE62C04720C5CDDC0090552D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE62C04820C5CDDC0090552D /* Build configuration list for PBXNativeTarget "SMS-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE62C04920C5CDDC0090552D /* Debug */,
+				EE62C04A20C5CDDC0090552D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE62C04B20C5CDDC0090552D /* Build configuration list for PBXNativeTarget "SMS-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE62C04C20C5CDDC0090552D /* Debug */,
+				EE62C04D20C5CDDC0090552D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE62C04E20C5CDDC0090552D /* Build configuration list for PBXNativeTarget "SMS-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE62C04F20C5CDDC0090552D /* Debug */,
+				EE62C05020C5CDDC0090552D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE62C02720C5CDDB0090552D /* SMS_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE62C02820C5CDDB0090552D /* SMS_Test.xcdatamodel */,
+			);
+			currentVersion = EE62C02820C5CDDB0090552D /* SMS_Test.xcdatamodel */;
+			path = SMS_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE62C01520C5CDDB0090552D /* Project object */;
+}
