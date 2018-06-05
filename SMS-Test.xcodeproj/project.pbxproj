@@ -15,6 +15,7 @@
 		EE62C02E20C5CDDB0090552D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE62C02C20C5CDDB0090552D /* LaunchScreen.storyboard */; };
 		EE62C03920C5CDDC0090552D /* SMS_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62C03820C5CDDC0090552D /* SMS_TestTests.swift */; };
 		EE62C04420C5CDDC0090552D /* SMS_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62C04320C5CDDC0090552D /* SMS_TestUITests.swift */; };
+		EE62C05220C5D21D0090552D /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62C05120C5D21D0090552D /* MessageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EE62C03F20C5CDDC0090552D /* SMS-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SMS-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE62C04320C5CDDC0090552D /* SMS_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMS_TestUITests.swift; sourceTree = "<group>"; };
 		EE62C04520C5CDDC0090552D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE62C05120C5D21D0090552D /* MessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				EE62C02C20C5CDDB0090552D /* LaunchScreen.storyboard */,
 				EE62C02F20C5CDDB0090552D /* Info.plist */,
 				EE62C02720C5CDDB0090552D /* SMS_Test.xcdatamodeld */,
+				EE62C05120C5D21D0090552D /* MessageController.swift */,
 			);
 			path = "SMS-Test";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				EE62C02320C5CDDB0090552D /* ViewController.swift in Sources */,
 				EE62C02120C5CDDB0090552D /* AppDelegate.swift in Sources */,
 				EE62C02920C5CDDB0090552D /* SMS_Test.xcdatamodeld in Sources */,
+				EE62C05220C5D21D0090552D /* MessageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP96UE2882;
 				INFOPLIST_FILE = "SMS-Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sammacginty.SMS-Test";
@@ -445,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP96UE2882;
 				INFOPLIST_FILE = "SMS-Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sammacginty.SMS-Test";
